@@ -7,7 +7,7 @@ namespace Generics_Max
 {
     internal class MaxNo
     {
-        public static string Max(string FirstNo, string SecondNo, string ThiredNo)
+        public static T Max<T> (T FirstNo, T SecondNo, T ThiredNo) where T : IComparable
 
         {
             if (FirstNo.CompareTo(SecondNo) >0 && FirstNo.CompareTo(ThiredNo) >0)
