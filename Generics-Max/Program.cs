@@ -5,9 +5,13 @@ namespace Generics_Max
     internal class Program
     {
         static void Main(string[] args)
-        {  
-            Console.WriteLine(MaxNo.Max("Apple","Banana","Peach"));
-            Console.WriteLine(MaxNo.Max(344, 544, 3));
+        {
+            MaxNo<int> a = new MaxNo<int>(314, 34, 4);
+            MaxNo<string> b = new MaxNo<string>("Apple", "Banana","Peach");
+            MaxNo<float> c = new MaxNo<float>(31.44f, 3481.43f, 412.44f);
+            Console.WriteLine(a.check());
+            Console.WriteLine(b.check());
+            Console.WriteLine(c.check());
         }
     }
 }
