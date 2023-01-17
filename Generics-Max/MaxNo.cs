@@ -7,7 +7,8 @@ namespace Generics_Max
 {
     internal class MaxNo
     {
-        public static int Max(int FirstNo, int SecondNo, int ThiredNo)
+        public static float Max(float FirstNo, float SecondNo, float ThiredNo)
+
         {
             if (FirstNo.CompareTo(SecondNo) >0 && FirstNo.CompareTo(ThiredNo) >0)
             {
@@ -21,7 +22,7 @@ namespace Generics_Max
             {
                 return ThiredNo;
             }
-            throw new Exception(" FirstNo,SecondNo,L is same");
+            throw new Exception(" FirstNo,SecondNo,ThiredNo is same");
         }
         
       

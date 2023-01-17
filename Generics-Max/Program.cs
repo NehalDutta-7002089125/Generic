@@ -6,7 +6,7 @@ namespace Generics_Max
     {
         static void Main(string[] args)
         {  
-            Console.WriteLine(MaxNo.Max(123, 145, 77));
+            Console.WriteLine(MaxNo.Max(123.44f, 145.33f, 77.32f));
         }
     }
 }
