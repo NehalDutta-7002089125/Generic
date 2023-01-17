@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace generics
+namespace Generics_Max
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {  
+            Console.WriteLine(MaxNo.Max(123, 145, 77));
         }
     }
 }
